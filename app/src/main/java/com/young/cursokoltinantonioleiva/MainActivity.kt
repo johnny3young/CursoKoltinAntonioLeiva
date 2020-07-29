@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
 
         toast("Mi primera función jejejeje...")
 
-        var tvMessage: EditText = findViewById(R.id.etmessage)
-        var button:Button = findViewById(R.id.button)
+        val tvMessage: EditText = findViewById(R.id.etmessage)
+        val button:Button = findViewById(R.id.button)
 
         button.setOnClickListener {
             toast("Hola ${tvMessage.text}")
