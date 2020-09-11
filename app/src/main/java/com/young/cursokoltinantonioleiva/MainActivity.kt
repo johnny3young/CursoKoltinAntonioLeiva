@@ -11,15 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        toast("Mi primera función jejejeje...")
-
-        val tvMessage: EditText = findViewById(R.id.etmessage)
-        val button:Button = findViewById(R.id.button)
-
-        button.setOnClickListener {
-            toast("Hola ${tvMessage.text}")
-        }
-
 
     }
 
